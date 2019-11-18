@@ -6,7 +6,7 @@ The package contains a Matlab (R2012b) implementation of the instantaneous  pitc
 
 The algorithm decomposes the signal into subband components and uses their instantaneous representations in order to evaluate candidate generating function. It is assumed that possible pitch variation range is proportional to pitch value. In order to get accurate estimates robust to rapid variations the analysis of signal is carried out using different time scales for each candidate. The algorithm shows a good frequency resolution for pitch-modulated sounds and performs well both in clean and noisy conditions.
 ### Citation
-A short [algorithm]([https://www.bsuir.by/m/12_100229_1_137383.pdf]) description is given in
+A short <a href="https://www.bsuir.by/m/12_100229_1_137383.pdf"> algorithm</a> description is given in
 
 *Azarov, E., Vashkevich, M. and Petrovsky, A., <a href="https://ieeexplore.ieee.org/document/7472623"> "Instantaneous Pitch Estimation Algorithm Based on Multirate Sampling</a>", In Proc. ICASSP 2016, pp. 4970-4974.*
 
@@ -21,7 +21,7 @@ doi={10.1109/ICASSP.2016.7472623}}
 ```
 
 ## Halcyon (example)
-<img src="image/Halcyon_example.png" width="700"/>
+<img src="image/Halcyon_example.png" width="780"/>
 
 ## Period candidate generation function (PCGF)
 For period candidates generation we use an autocorrelation-based measure. The following figure compares the PCGFs using in RAPT, IRAPT anf Halcyon algorithms.
