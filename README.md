@@ -1,4 +1,4 @@
-# Halcyon (Instantaneous pitch estimator)
+# Halcyon (Instantaneous pitch estimator, ICASSP-2016)
 
 
 ## Abstract
